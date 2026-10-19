@@ -1,0 +1,30 @@
+{
+    "name": "maximklassen/nomenar",
+    "description": "",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Klassen",
+            "email": "maximklassen@mail.de"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0|^11.0",
+        "laravel/sanctum": "^3.0|^4.0",
+        "spatie/laravel-permission": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaximKlassen\\Nomenar\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MaximKlassen\\Nomenar\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
